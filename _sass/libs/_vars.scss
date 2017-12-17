@@ -28,7 +28,15 @@
 
 // Font.
 	$font: (
-		family:				('Open Sans', Helvetica, sans-serif),
+		family:				('Montserrat', 'Libre Baskerville', sans-serif),
+		family-fixed:		('Courier New', monospace),
+		weight:				400,
+		weight-bold:		600,
+		weight-extrabold:	800
+	);
+
+  $font2: (
+		family:				('Libre Baskerville', sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				400,
 		weight-bold:		600,
@@ -37,7 +45,8 @@
 
 // Palette.
 	$palette: (
-		bg:					#2e3842,
+		//bg:					#2e3842,
+    bg:					#21b2a6,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
